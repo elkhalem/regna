@@ -16,9 +16,11 @@ a {
 }
 
 .header {
-    position: absolute;
+    position: fixed;
     top: 30px;
     width: 100%;
+    background: rgba(69, 80, 84, 0.93);
+    padding: 15px 0;
 }
 
 .menu-link {
@@ -32,7 +34,7 @@ a {
 }
 
 .container {
-    max-width: 1170px;
+    max-width: 1280px;
     margin: 0 auto;
     padding: 0 15px;
 
