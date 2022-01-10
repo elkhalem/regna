@@ -16,10 +16,9 @@ a {
 }
 
 .header {
-    position: fixed;
+    position: absolute;
     top: 30px;
     width: 100%;
-    background: rgba(69, 80, 84, 0.93);
     padding: 15px 0;
 }
 
@@ -27,6 +26,7 @@ a {
     color: #fff;
     margin-left: 20px;
     display: inline-block;
+    font-size: 28px;
 }
 
 .menu-link:hover {
@@ -34,7 +34,7 @@ a {
 }
 
 .container {
-    max-width: 1170px;
+    max-width: 1320px;
     margin: 0 auto;
     padding: 0 15px;
 
@@ -115,7 +115,6 @@ a {
 .about-desk {
     margin-bottom: 30px;
 }
-
 .about-icon {
     border-radius: 50%;
     border: 2px solid #2dc997;
@@ -508,4 +507,11 @@ a {
 
 .footer-design {
     color: #2dc997;
+}
+
+.burger {
+    font-size: 28px;
+    color: #ffffff;
+    display: none;
+
 }
